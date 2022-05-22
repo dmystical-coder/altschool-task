@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Bout'me register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="register_modal_container">
+        <center>
+            <div class="register_container">
+                <center>
+                    <div class="register_text">Register</div>
+                </center>
+                <div class="space_btwn"></div>
+                <form action="" method="post" onsubmit="">
+                    <!--FirstName and other fields-->
+                    <input type="text" name="firstname" class="in_user" placeholder="FirstName" required />
+                    <div class="space_btwn"></div>
+                    <input type="text" name="lastname" class="in_user" placeholder="LastName" required />
+                    <div class="space_btwn"></div>
+                    <input type="tel" name="telephone" class="in_user" placeholder="Phone" required />
+                    <div class="space_btwn"></div>
+                    <select class="in_user2" value="Select Gender">
+                        <option name="Male">Male</option>
+                        <option name="Female">Female</option>
+                        <option name="NaN">Rather not say</option>
+                        <option name="SG" selected>Select Gender</option>
+                    </select>
+                    <div class="space_btwn"></div>
+                    <input type="text" name="country" class="in_user" placeholder="Country" required />
+                    <div class="space_btwn"></div>
+                    <input type="text" name="province" class="in_user" placeholder="State" required />
+                    <div class="space_btwn"></div>
+                    <input type="text" name="username" class="in_user" placeholder="Username" required />
+                    <div class="space_btwn"></div>
+                    <input type="password" name="pswd1" class="in_user" placeholder="Password" minlength="8" required />
+                    <div class="space_btwn"></div>
+                    <input type="password" name="pswd2" class="in_user" placeholder="Confirm Password" minlength="8"
+                        required />
+                    <div class="space_btwn"></div>
+                    <center>
+                        <button type="submit" name="submit_registered" class="btn_register">Sign Up</button>
+                        <div class="space_btwn"></div>
+                        <text class="AOL">Already have an account? <a href="">Login</a></text>
+                    </center>
+                </form>
+
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>

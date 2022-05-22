@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: rgb(194, 23, 23);
+}
+.login-container-base {
+	justify-content: center;
+	justify-self: center;
+	margin-top: 50px;
+}
+.login_container {
+	width: 28%;
+	height: fit-content;
+	padding: 15px;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px 1px #8d8d8b;
+	text-align: left;
+}
+#login_text {
+	font-family: arial;
+	font-size: 25px;
+	color: #2a2a2a;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 9px;
+}
+.space_btwn {
+	margin-top: 20px;
+}
+.user_name {
+	font-family: calibri;
+	font-size: 17px;
+}
+.in_user {
+	padding: 7px;
+	width: 100%;
+	height: fit-content;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 2px solid #747171;
+}
+.in_user::placeholder {
+	font-family: arial;
+	font-size: 14px;
+	color: #2a2a2a;
+}
+.in_user:hover {
+	border-bottom: 0px;
+}
+.in_user:-ms-keyboard-active {
+	border: 0px;
+}
+.rem_me {
+	font-family: arial;
+	font-size: 15px;
+}
+.forgot_pswd {
+	text-align: right;
+	overflow: hidden;
+	margin-top: 17px;
+}
+.forgot_pswd > a {
+	color: blue;
+	font-family: calibri;
+	font-size: 16px;
+	text-decoration: none;
+}
+.log_btn {
+	width: 100%;
+	height: fit-content;
+	color: #fff;
+	background: linear-gradient(
+		to right,
+		rgb(139, 139, 233),
+		rgb(54, 100, 102),
+		rgb(139, 139, 233)
+	);
+	padding: 6px 0px;
+	border-radius: 30px;
+	border: 0px;
+	font-family: calibri;
+	font-size: 17px;
+	letter-spacing: 2px;
+	box-shadow: 0px 0px 1px 1px #696868;
+}
+.log_btn:hover {
+	opacity: 0.7;
+	transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition-delay: 1s;
+	cursor: pointer;
+}
+.new_s {
+	font-family: arial;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.new_s > a {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.bout {
+	font-family: arial;
+	letter-spacing: 2px;
+	color: #000;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+	.login_container {
+		width: 90%;
+		height: fit-content;
+		padding: 15px;
+		background: #fff;
+		color: #000;
+		border-radius: 2px;
+		box-shadow: 0px 0px 1px 1px #8d8d8b;
+		text-align: left;
+	}
+}
